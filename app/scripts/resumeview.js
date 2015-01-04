@@ -3,7 +3,7 @@
 
 // RESUME VIEW ///////////////////////////////////////////////////////////
 var ResumeView = Backbone.View.extend({
-
+	className : 'row',
 	resumeTemplate: _.template($('.resume-template').text()),
 
 	events: {

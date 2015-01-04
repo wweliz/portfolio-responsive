@@ -5,11 +5,6 @@ body {
   color: #666666;
   vertical-align: top; }
 
-.main-container {
-  width: 90%;
-  margin: 0 auto;
-  padding-bottom: 15px; }
-
 a {
   color: #0091ca;
   text-decoration: none; }
@@ -17,46 +12,29 @@ a {
     text-decoration: underline; }
 
 .header {
-  margin: 15px 0 15px 0; }
-
-.logo-space {
-  height: 50px; }
-  .logo-space .logo-wew {
+  height: 50px;
+  margin: 15px 0; }
+  .header .logo-wew {
     height: 50px;
     width: 50px;
     margin-right: 5px;
     display: inline-block; }
-  .logo-space .my-name {
+  .header .my-name {
     font-size: 24px;
     color: #0091ca;
     display: inline-block;
     vertical-align: top; }
 
-.dotted-border-left {
+.addMargin {
+  margin: 15px; }
+
+.dots-left, .dots-right {
   height: 25px;
-  width: 75%;
-  background: url(..//images/dots.png) repeat-x left bottom;
-  display: inline-block; }
-
-.main-menu {
-  height: 25px;
-  width: 23%;
-  background: url(..//images/dots.png) repeat-x left bottom;
-  display: inline-block;
-  float: right; }
-  .main-menu a {
-    margin-right: 5px; }
-
-.content-column {
-  width: 75%;
-  display: inline-block;
-  margin-bottom: 55px; }
-
-.sidebar {
-  width: 23%;
-  display: inline-block;
-  float: right;
-  margin-bottom: 55px; }
+  margin-bottom: 15px;
+  background: url(..//images/dots.png) repeat-x left bottom; }
+  .dots-left a, .dots-right a {
+    margin-right: 5px;
+    font-size: 0.75em; }
 
 .introtext {
   margin-bottom: 15px; }
@@ -70,6 +48,10 @@ a {
 
 .follow-up-text {
   max-width: 388px; }
+
+.sub-nav {
+  margin: 0;
+  padding: 0; }
 
 .sub-content-left {
   width: 48.75%;
@@ -85,13 +67,15 @@ a {
   display: inline-block;
   float: right; }
 
-.show-resume-btn, .show-highlights-btn, .download-btn {
-  font-size: 0.9rem;
+.show-resume-btn, .show-highlights-btn {
+  font-size: 0.75em;
   color: #0091ca;
   text-decoration: none;
-  cursor: pointer; }
-  .show-resume-btn:hover, .show-highlights-btn:hover, .download-btn:hover {
-    text-decoration: underline; }
+  cursor: pointer;
+  display: inline-block; }
+
+.download-btn {
+  display: inline-block; }
 
 .project-tile {
   width: 31%;

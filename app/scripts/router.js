@@ -90,7 +90,3 @@ var AppRouter = Backbone.Router.extend({
 // INSTANTIATING THE ROUTER //////////////////////////////////////////////
 new AppRouter();
 Backbone.history.start();
-
-// Foundation JavaScript
-// Documentation can be found at: http://foundation.zurb.com/docs
-$(document).foundation();
